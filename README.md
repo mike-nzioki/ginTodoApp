@@ -9,9 +9,9 @@ The project has a simple structure:
 ├── models                 # Data models for the application.
 │   └── todo.go            # The To-Do model.
 ├── repositories           # Repository layer for encapsulating the logic that interacts with the database.
-└── todorepository.go  # Repository for To-Do operations.
+└── todorepository.go      # Repository for To-Do operations.
 └── handlers               # Handlers for HTTP requests.
-    └── todohandler.go            # HTTP handlers for To-Do operations.
+    └── todohandler.go     # HTTP handlers for To-Do operations.
 ├── go.mod                 # Go module file containing dependencies.
 ├── go.sum                 # Contains the expected cryptographic checksums of the content of specific module versions.
 └── README.md              # This file.
